@@ -1,11 +1,9 @@
 {
-  "name": "Compound WETH",
-  "symbol": "cWETHv3",
-  "baseToken": "WETH",
-  "baseTokenAddress": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  "name": "Savings xDAI (sDAI)",
+  "symbol": "sDAIv3",
+  "baseToken": "sDAI",
+  "baseTokenAddress": "0x20e5eB701E8d711D419D444814308f8c2243461F",
   "borrowMin": "0.1e18",
-  "governor": "0x6d903f6003cca6255d85cca4d3b5e5146dc33925",
-  "pauseGuardian": "0xbbf3f1421d886e9b2c5d716b5192ac998af2012c",
   "storeFrontPriceFactor": 0.5,
   "targetReserves": "5000e18",
   "rates": {
@@ -26,21 +24,13 @@
   },
   "rewardTokenAddress": "0xc00e94cb662c3520282e6f5717214004a7f26888",
   "assets": {
-    "cbETH": {
-      "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+    "sDAI": {
+      "address": "0x20e5eB701E8d711D419D444814308f8c2243461F",
       "decimals": "18",
       "borrowCF": 0.90,
       "liquidateCF": 0.93,
       "liquidationFactor": 0.95,
       "supplyCap": "7_100e18"
-    },
-    "wstETH": {
-      "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
-      "decimals": "18",
-      "borrowCF": 0.90,
-      "liquidateCF": 0.93,
-      "liquidationFactor": 0.95,
-      "supplyCap": "64_500e18"
     }
   }
 }
