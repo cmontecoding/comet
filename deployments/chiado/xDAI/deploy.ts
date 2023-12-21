@@ -15,7 +15,7 @@ export default async function deploy(deploymentManager: DeploymentManager, deplo
       8                                             // decimals
     ]
   );
-
+ 
   // Deploy constant price feed for WETH
   const wethConstantPriceFeed = await deploymentManager.deploy(
     'WETH:priceFeed',
