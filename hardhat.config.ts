@@ -141,6 +141,11 @@ const networkConfigs: NetworkConfig[] = [
     chainId: 59140,
     url: `https://linea-goerli.infura.io/v3/${INFURA_KEY}`,
   },
+  {
+    network: 'chiado',
+    chainId: 10200,
+    url: `https://rpc.chiadochain.net`,
+  }
 ];
 
 function getDefaultProviderURL(network: string) {
